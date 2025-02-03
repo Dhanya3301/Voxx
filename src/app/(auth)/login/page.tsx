@@ -36,7 +36,7 @@ const Page: FC = () => {
               Welcome to Voxx
             </h2>
           </div>
-          <div className="flex flex-col items-center gap-8">
+          {/* <div className="flex flex-col items-center gap-8">
             <input
               className="focus:outline-none focus:border-zinc-700 placeholder-zinc-700 bg-transparent border-b-2 border-zinc-600 px-4 py-2"
               type="text"
@@ -47,7 +47,7 @@ const Page: FC = () => {
               type="text"
               placeholder="Enter your Password"
             ></input>
-          </div>
+          </div> */}
           <Button
             isLoading={isLoading}
             type="button"
