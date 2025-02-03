@@ -22,7 +22,7 @@ const Page: FC = () => {
   }
   return (
     <>
-      <form className="flex fle-col min-h-screen bg-cover bg-[url(/login-bg.jpeg)] items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <form className="flex flex-col min-h-screen bg-cover bg-[url(/login-bg.jpeg)] items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="w-full flex bg-purple-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 flex-col items-center max-w-md space-y-8 border-2 p-8">
           <div className="flex flex-col items-center gap-8">
             <Image

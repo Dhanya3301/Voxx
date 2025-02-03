@@ -54,7 +54,7 @@ const Layout = async ({ children }: LayoutProps) => {
           unseenRequestCount={unseenRequestCount}
         />
       </div>
-      <div className="hidden md:flex h-full w-full max-w-xs bg-[#303136] rounded-tr-2xl rounded-br-2xl grow flex-col gap-y-5 overflow-y-auto  px-6">
+      <div className="hidden md:flex h-full w-full max-w-xs bg-[#303136] rounded-tr-2xl rounded-br-2xl grow flex-col gap-y-5 overflow-y-auto px-6">
         <Link href="/dashboard" className="flex h-16 shrink-0 items-center">
           <Icons.Logo className="h-8 w-auto text-blue-600 font-extrabold text-3xl" />
           <span className="pl-6 text-3xl font-bold text-blue-600">Voxx</span>
@@ -126,7 +126,7 @@ const Layout = async ({ children }: LayoutProps) => {
           </ul>
         </nav>
       </div>
-      <aside className="max-h-screen container py-16 md:py-12 w-full">
+      <aside className="max-h-screen container py-10 md:py-10 w-full">
         {children}
       </aside>
     </div>
